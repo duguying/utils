@@ -15,4 +15,4 @@ set(
     src/stack.c
     src/thread.c
     )
-add_library(utils STATIC ${UTILS_SOURCE_FILES})
+add_library(base STATIC ${UTILS_SOURCE_FILES})
